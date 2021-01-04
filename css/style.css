@@ -1,0 +1,121 @@
+@font-face{
+	font-family: Kumbh-Sans;
+	src: url('../fonts/KumbhSans-Regular.ttf');
+}
+ body{
+     background-color:  hsl(185, 75%, 39%);
+ }
+ div{
+    font-family: "Kumbh-Sans";
+ }
+ .victor_img{
+    border: 5px solid white;
+    margin-bottom: 20px;
+    border-radius: 50%;
+ }
+ .centered{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+ }
+ .parentbkg{
+     width: 100vw;
+     height: 100vh;
+     position: fixed;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     z-index: -1;
+ }
+ .svgDiv{
+      position: fixed;
+     }
+ .topSVG{
+    transform: translate(-35%,-55%);
+ }
+ .bottomSVG{ 
+     transform: translate(68%, 35%); 
+    }
+ .attribution { font-size: 11px; text-align: center; }
+ .attribution a { color: hsl(228, 45%, 44%); }
+ 
+ .victor_background{
+    height: 250px;
+    width: 350px;
+    opacity: 100%;
+    background-color: #ffff;
+    transform: translate(-50.1%, -22%);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+ }
+ .centered2{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -120%);
+ }
+ .top_background{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+ }
+ .text_transform{
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-53%, 240%);
+
+ }
+ .flexBox{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.font_bigger{
+   font-size: 19px;
+}
+.spacing{
+   word-spacing: 10px;
+}
+.spacing2{
+   word-spacing: 70px;
+}
+span {
+   font-weight: 400;
+   color: hsl(227, 10%, 46%);
+   margin-left: 5px;
+ }
+ h5 {
+   font-weight: 400;
+   color: hsl(227, 10%, 46%);
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-70%, 400%);
+ }
+ hr{
+   border: 1px solid;
+   border-bottom: 0;
+   width: 25%;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, 11500%);
+ }
+ .sub {
+   position: relative;
+   top: 50px;
+ }
+ .info1{
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, 650%);
+ }
+ .info2{
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-52%, 900%);
+ }
